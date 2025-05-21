@@ -1,4 +1,3 @@
-
 # Laravel Group Chat Using Laravel Channel
 
 A Group Chat application using laravel websockets and Pusher the UI is not that much fancy but the idea has been implemented. For authentication Laravel Breez has been used. The application focus on the following.
@@ -29,6 +28,20 @@ https://beyondco.de/docs/laravel-websockets/getting-started/introduction
 https://pusher.com/
 
 # Configuration
+
+Make some configuration changes in .env file 
+
+```
+BROADCAST_DRIVER=pusher
+
+PUSHER_APP_ID=ANY_UNIQUE_ID
+PUSHER_APP_KEY=ANY_UNIQUE_KEY
+PUSHER_APP_SECRET=ANY_UNIQUE_SECRET
+PUSHER_HOST=127.0.0.1
+PUSHER_PORT=443
+PUSHER_SCHEME=https
+PUSHER_APP_CLUSTER=mt1
+```
 
 In termianl visit the project root directory and run following cammands:
 
